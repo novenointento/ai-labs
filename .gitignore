@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code / IntelliJ
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+
+# Build / cache
+build/
+dist/
+.cache/
+tmp/
+temp/
+
+# ML / AI artifacts
+outputs/
+artifacts/
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# Data
+datasets/raw/
+datasets/tmp/
+datasets/cache/
+
+# Models
+models/downloaded/
+models/cache/
+models/*.gguf
+models/*.bin
+models/*.safetensors
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Vector DBs / embeddings
+*.faiss
+*.index
+*.chroma/
+chroma_db/
+vectorstore/
+vectordb/
+
+# Databases
+*.sqlite
+*.db
+
+# Large archives
+*.zip
+*.tar
+*.gz
+*.7z
